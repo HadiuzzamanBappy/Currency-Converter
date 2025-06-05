@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="icon" type="image/png" href="res/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="res/vendor/country/css/countrySelect.min.css">
+    <link rel="stylesheet" href="res/css/style.css">
+    
+</head>
+
+<body>
+    <a href="#" data-toggle="theme"><i class="fa fa-moon light"></i><i class="fa fa-sun dark"></i></a>
+    <div class="wrap">
+        <header>
+            <h2>Currency Converter</h2>
+            <p>A simple tool to convert between different currencies using real-time exchange rates</p>
+        </header>
+        <main class="converter">
+            <form>
+                <div class="input-group">
+                    <label for="amount">Amount:</label>
+                    <input type="number" id="amount" name="amount" required>
+                </div>
+                <div class="input-group">
+                    <label for="from">From:</label>
+                    <input id="from_country_selector" type="text" class="select">
+                </div>
+                <div class="input-group">
+                    <label for="to">To:</label>
+                    <input id="to_country_selector" type="text" class="select">
+                </div>
+                <button type="submit"><i class="fa fa-exchange"></i>Convert</button>
+            </form>
+        </main>
+        <footer class="result">
+            <span id="single-amount">Single amount</span>
+            <div id="input-amount">Demanded Amount</div>
+        </footer>
+    </div>
+
+    <footer class="credit">
+        <p class="text-description d-flex justify-content-center align-items-center">2025 &copy; Currency. Created by <a href="https://hadiuzzamanbappy.github.io/" target="_blank" class="fw-medium text-primary"><i class="fas fa-bold ml-1 text-primary"></i>roTech</a></p>
+    </footer>
+
+    <script src="res/vendor/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script src="res/vendor/country/js/countrySelect.min.js"></script>
+    <script src="res/js/script.js"></script>
+</body>
+
+</html>
