@@ -1,6 +1,6 @@
 # Dynamic Currency Converter
 
-![Currency Converter Screenshot](https://via.placeholder.com/600x300?text=Currency+Converter+Screenshot) A modern and responsive currency converter web application that fetches real-time exchange rates from a currency API. Users can easily convert amounts between various currencies.
+A modern and responsive currency converter web application that fetches real-time exchange rates from a currency API. Users can easily convert amounts between various currencies.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Project Structure](#project-structure)
-- [Styling](#styling)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -53,7 +52,7 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 
     If you use Git:
     ```bash
-    git clone [https://github.com/your-username/currency-converter.git](https://github.com/your-username/currency-converter.git)
+    git clone https://github.com/HadiuzzamanBappy/Currency-Converter
     ```
     If you prefer to download:
     Go to the GitHub repository page and click on "**Code**" -> "**Download ZIP**". Unzip the downloaded file.
@@ -82,39 +81,21 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 
 This project relies on a third-party currency exchange rate API.
 
-* **API Provider:** [Mention the specific API you are using, e.g., ExchangeRate-API, Open Exchange Rates, Fixer, etc.]
-* **API Endpoint:** `[Provide the base URL of the API endpoint you are using for exchange rates]`
-* **API Key:** You may need an API key for the chosen service. If so, **do not commit your API key directly into your public repository.** Instead, consider using environment variables or a proxy server for production, or a placeholder for development.
-    * **For Development:** For local development, you might temporarily place your API key in your JavaScript file, but remember to remove it before pushing to a public repository. A common approach is to have a `config.js` (excluded from gitignore) or similar.
-
-    *Example JavaScript (simplified):*
-    ```javascript
-    // In your script.js or api.js file
-    const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your actual API key
-    const API_BASE_URL = '[https://api.exchangerate-api.com/v4/latest/](https://api.exchangerate-api.com/v4/latest/)'; // Example
-    ```
-    Please refer to the chosen API's documentation for details on obtaining and using your API key.
+* **API Provider:** https://www.exchangerate-api.com/
+* **API Endpoint:** `https://v6.exchangerate-api.com/v6/{API KEY}/latest/USD`
 
 ---
 
 ## Project Structure
 currency-converter/
 ├── index.html        // Main HTML file
-├── style.css         // All CSS styles
-├── script.js         // All JavaScript logic (API calls, DOM manipulation, event listeners)
+├── resources/        // Folder for images and other resources
+│   ├── css/          // CSS files
+│   ├── fonts/        // Font files
+│   ├── img/          // Image files
+│   ├── js/           // JavaScript files
+│   └── vendor/       // Third-party libraries
 └── README.md         // This file
-└── .gitignore        // (Optional) Helps prevent unnecessary files from being committed
-
----
-
-## Styling
-
-The `style.css` file contains all the styling for the application. It uses a modern and clean design approach, focusing on responsiveness and user experience. Key styling elements include:
-
-* Flexbox for layout
-* Custom fonts (if used)
-* Clear input fields and buttons
-* Responsive media queries for different screen sizes
 
 ---
 
@@ -140,6 +121,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/your-username/currency-converter](https://github.com/your-username/currency-converter)
+Your Name - [hbappy79@gmail.com](mailto:hbappy79@gmail.com)

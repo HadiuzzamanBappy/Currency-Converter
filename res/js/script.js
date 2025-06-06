@@ -49,6 +49,7 @@ class CurrencyConverter {
         const amount = parseFloat(document.getElementById('amount').value);
 
         try {
+            await converter.setBaseCurrency(fromCurrency);
             const resultSingle = await converter.convertTo(toCurrency, 1);
             document.getElementById('single-amount').textContent = `1 ${fromCurrency} = ${resultSingle} ${toCurrency}`;
             const result = await converter.convertTo(toCurrency, amount);
