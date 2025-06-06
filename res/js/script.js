@@ -30,7 +30,7 @@ class CurrencyConverter {
   if (isNaN(amount)) {
     document.getElementById("input-amount").textContent = `No Amount Entered!`;
 
-    document.getElementById("input-amount").classList.add("warning");
+    document.getElementById("result").classList.add("warning");
   }
 
   async function performConversion() {
@@ -50,9 +50,9 @@ class CurrencyConverter {
         "input-amount"
       ).textContent = `No Amount Entered!`;
 
-      document.getElementById("input-amount").classList.add("warning");
-      document.getElementById("input-amount").classList.remove("success");
-      document.getElementById("input-amount").classList.remove("error");
+      document.getElementById("result").classList.add("warning");
+      document.getElementById("result").classList.remove("success");
+      document.getElementById("result").classList.remove("danger");
     } else {
       converter.currencies.forEach((currency) => {
         if (currency.startsWith(fromCurrency)) {
@@ -75,14 +75,14 @@ class CurrencyConverter {
           "input-amount"
         ).textContent = `${amount} ${fromCurrency} = ${result} ${toCurrency}`;
 
-        document.getElementById("input-amount").classList.add("success");
-        document.getElementById("input-amount").classList.remove("warning");
-        document.getElementById("input-amount").classList.remove("error");
+        document.getElementById("result").classList.add("success");
+        document.getElementById("result").classList.remove("warning");
+        document.getElementById("result").classList.remove("danger");
       } catch (error) {
         document.getElementById("input-amount").textContent = error.message;
-        document.getElementById("input-amount").classList.remove("success");
-        document.getElementById("input-amount").classList.remove("warning");
-        document.getElementById("input-amount").classList.add("error");
+        document.getElementById("result").classList.remove("success");
+        document.getElementById("result").classList.remove("warning");
+        document.getElementById("result").classList.add("danger");
       }
     }
   }

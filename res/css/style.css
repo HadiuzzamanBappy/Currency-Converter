@@ -232,22 +232,6 @@ button:hover {
     box-shadow: var(--box-shadow-hover);
 }
 
-#single-amount{
-    color: var(--text-disabled);
-}
-
-#input-amount{
-    color: var(--text-secondary);
-}
-
-#input-amount.success{
-    color: var(--success);
-}
-
-#input-amount.warning{
-    color: var(--warning);
-}
-
 a{
     text-decoration: none;
     color: rgba(40, 167, 69);
@@ -271,7 +255,7 @@ footer{
     align-items: center;
     gap: 0.5rem;
     flex-direction: column;
-    box-shadow: var(--box-shadow-success);
+    box-shadow: var(--box-shadow);
 }
 
 footer.credit{
@@ -289,6 +273,35 @@ footer.credit{
     text-align: center;
 }
 
+#single-amount{
+    color: var(--text-disabled);
+}
+
 #input-amount{
+    color: var(--text-secondary);
     font-size: x-large;
+}
+
+footer.success{
+    box-shadow: var(--box-shadow-success);
+}
+
+footer.success #input-amount{
+    color: var(--success);
+}
+
+footer.warning{
+    box-shadow: var(--box-shadow-warning);
+}
+
+footer.warning #input-amount{
+    color: var(--warning);
+}
+
+footer.danger{
+    box-shadow: var(--box-shadow-danger);
+}
+
+footer.danger #input-amount{
+    color: var(--danger);
 }
