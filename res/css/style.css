@@ -158,7 +158,7 @@ form{
     margin-bottom: 1.25rem;
 }
 
-@media screen and (min-width: 600px)  {
+@media screen and (min-width: 0px)  {
     .input-group {
         margin-bottom: 1rem;
         display: flex;
@@ -211,9 +211,41 @@ button {
     font-weight: 600;
 }
 
+.swap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.25rem 0;
+}
+
+.swap button{
+    width: min-content;
+}
+
+.swap i,.swap svg{
+    transform: rotate(90deg);
+}
+
 button:hover {
     transform: scale(1.02);
     box-shadow: var(--box-shadow-hover);
+}
+
+#single-amount{
+    color: var(--text-disabled);
+}
+
+#input-amount{
+    color: var(--text-secondary);
+}
+
+#input-amount.success{
+    color: var(--success);
+}
+
+#input-amount.warning{
+    color: var(--warning);
 }
 
 a{

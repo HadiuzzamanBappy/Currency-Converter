@@ -81,8 +81,8 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 
 This project relies on a third-party currency exchange rate API.
 
-* **API Provider:** https://www.exchangerate-api.com/
-* **API Endpoint:** `https://v6.exchangerate-api.com/v6/{API KEY}/latest/USD`
+* **API : Exchange Rate:** https://www.exchangerate-api.com/
+* **Library : Country Select:** https://www.jqueryscript.net/form/country-picker-flags.html
 
 ---
 
