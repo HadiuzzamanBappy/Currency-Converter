@@ -82,6 +82,7 @@ p{
 [data-toggle="theme"]:hover {
     transform: scale(1.01);
     box-shadow: var(--box-shadow-hover);
+    text-decoration: none;
 }
 
 [data-theme="dark"] [data-toggle="theme"]{
