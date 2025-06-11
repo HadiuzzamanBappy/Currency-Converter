@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 :root{
-    --font-family: Arial, sans-serif;
+    --font-family: "Poppins", sans-serif;
     --bg-default: #fbfbfb;
     --bg-paper: #fbfbfb;
     --bg-paper-alternate: #e0e0e0;
@@ -135,7 +137,7 @@ header{
 }
 
 
-.converter {
+.container {
     background-color: var(--bg-paper);
     padding: 1.50rem;
     border-radius: 1rem;
