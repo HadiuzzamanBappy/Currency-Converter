@@ -242,3 +242,23 @@ body {
 .page-footer a:hover {
     text-decoration: underline;
 }
+
+/* --- FIX: Responsive styles for mobile devices --- */
+@media (max-width: 576px) {
+    .converter-inputs {
+        flex-direction: column;
+    }
+
+    .input-container{
+        width: 100%;
+    }
+
+    .swap-button {
+        margin-top: 0;
+        transform: rotate(90deg);
+    }
+
+    .swap-button:hover {
+        transform: rotate(270deg);
+    }
+}
