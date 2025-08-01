@@ -5,7 +5,7 @@ A modern and responsive currency converter web application that fetches real-tim
 🌐 **Live Demo & Screenshot**  
 ➡️ View Live Site Here (https://currency-convert-bro.vercel.app/)  
 <br>
-![alt text](/res/img/image.png) 
+![alt text](/res/img/image.png)
 <br>
 
 ## Table of Contents
@@ -18,7 +18,6 @@ A modern and responsive currency converter web application that fetches real-tim
 - [Usage](#usage)
 - [API Integration](#api-integration)
 - [Project Structure](#project-structure)
-- [Styling](#styling)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -27,21 +26,21 @@ A modern and responsive currency converter web application that fetches real-tim
 
 ## Features
 
-* **Real-time Exchange Rates:** Fetches the latest currency exchange rates from a reliable API.
-* **Dynamic Currency Selection:** Users can select source and target currencies from a comprehensive list.
-* **Instant Conversion:** Converts amounts as the user types, providing immediate results.
-* **Responsive Design:** Works seamlessly across various devices (desktops, tablets, and mobile phones).
-* **User-Friendly Interface:** Clean and intuitive design for a smooth user experience.
-* **Error Handling:** Provides informative messages for API errors or network issues.
-* **Swap Currencies:** A convenient button to quickly swap the source and target currencies.
+- **Real-time Exchange Rates:** Fetches the latest currency exchange rates from a reliable API.
+- **Dynamic Currency Selection:** Users can select source and target currencies from a comprehensive list.
+- **Instant Conversion:** Converts amounts as the user types, providing immediate results.
+- **Responsive Design:** Works seamlessly across various devices (desktops, tablets, and mobile phones).
+- **User-Friendly Interface:** Clean and intuitive design for a smooth user experience.
+- **Error Handling:** Provides informative messages for API errors or network issues.
+- **Swap Currencies:** A convenient button to quickly swap the source and target currencies.
 
 ---
 
 ## Technologies Used
 
-* **HTML5:** For the basic structure and content of the web page.
-* **CSS3:** For styling the application, making it visually appealing and responsive.
-* **JavaScript (ES6+):** For handling the application logic, API calls, and dynamic updates.
+- **HTML5:** For the basic structure and content of the web page.
+- **CSS3:** For styling the application, making it visually appealing and responsive.
+- **JavaScript (ES6+):** For handling the application logic, API calls, and dynamic updates.
 
 ---
 
@@ -58,13 +57,16 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 1.  **Clone the repository (or download the ZIP):**
 
     If you use Git:
+
     ```bash
-    git clone [https://github.com/your-username/currency-converter.git](https://github.com/your-username/currency-converter.git)
+    git clone https://github.com/HadiuzzamanBappy/Currency-Converter
     ```
+
     If you prefer to download:
     Go to the GitHub repository page and click on "**Code**" -> "**Download ZIP**". Unzip the downloaded file.
 
 2.  **Navigate to the project directory:**
+
     ```bash
     cd currency-converter
     ```
@@ -88,39 +90,22 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 
 This project relies on a third-party currency exchange rate API.
 
-* **API Provider:** [Mention the specific API you are using, e.g., ExchangeRate-API, Open Exchange Rates, Fixer, etc.]
-* **API Endpoint:** `[Provide the base URL of the API endpoint you are using for exchange rates]`
-* **API Key:** You may need an API key for the chosen service. If so, **do not commit your API key directly into your public repository.** Instead, consider using environment variables or a proxy server for production, or a placeholder for development.
-    * **For Development:** For local development, you might temporarily place your API key in your JavaScript file, but remember to remove it before pushing to a public repository. A common approach is to have a `config.js` (excluded from gitignore) or similar.
-
-    *Example JavaScript (simplified):*
-    ```javascript
-    // In your script.js or api.js file
-    const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your actual API key
-    const API_BASE_URL = '[https://api.exchangerate-api.com/v4/latest/](https://api.exchangerate-api.com/v4/latest/)'; // Example
-    ```
-    Please refer to the chosen API's documentation for details on obtaining and using your API key.
+- **API : Exchange Rate:** https://www.exchangerate-api.com/
+- **Library : Country Select:** https://www.jqueryscript.net/form/country-picker-flags.html
 
 ---
 
 ## Project Structure
+
 currency-converter/
-├── index.html        // Main HTML file
-├── style.css         // All CSS styles
-├── script.js         // All JavaScript logic (API calls, DOM manipulation, event listeners)
-└── README.md         // This file
-└── .gitignore        // (Optional) Helps prevent unnecessary files from being committed
-
----
-
-## Styling
-
-The `style.css` file contains all the styling for the application. It uses a modern and clean design approach, focusing on responsiveness and user experience. Key styling elements include:
-
-* Flexbox for layout
-* Custom fonts (if used)
-* Clear input fields and buttons
-* Responsive media queries for different screen sizes
+├── index.html // Main HTML file
+├── resources/ // Folder for images and other resources
+│ ├── css/ // CSS files
+│ ├── fonts/ // Font files
+│ ├── img/ // Image files
+│ ├── js/ // JavaScript files
+│ └── vendor/ // Third-party libraries
+└── README.md // This file
 
 ---
 
@@ -146,6 +131,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
-
-Project Link: [https://github.com/your-username/currency-converter](https://github.com/your-username/currency-converter)
+Your Name - [hbappy79@gmail.com](mailto:hbappy79@gmail.com)

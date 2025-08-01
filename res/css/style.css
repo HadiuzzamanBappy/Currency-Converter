@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 :root{
-    --font-family: Arial, sans-serif;
+    --font-family: "Poppins", sans-serif;
     --bg-default: #fbfbfb;
     --bg-paper: #fbfbfb;
     --bg-paper-alternate: #e0e0e0;
@@ -82,6 +84,7 @@ p{
 [data-toggle="theme"]:hover {
     transform: scale(1.01);
     box-shadow: var(--box-shadow-hover);
+    text-decoration: none;
 }
 
 [data-theme="dark"] [data-toggle="theme"]{
@@ -102,18 +105,19 @@ p{
     justify-content: center;
     align-items: center;
     gap: 1.25rem;
-    width: 40vw;
+    width: 100vw;
+    padding: 1rem;
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (min-width: 600px)  {
     .wrap{
-        width: 90vw;
+        width: 80vw;
     }
 }
 
-@media screen and (max-width: 1000px)  {
+@media screen and (min-width: 1000px)  {
     .wrap{
-        width: 60vw;
+        width: 50vw;
     }
 }
 
@@ -133,7 +137,7 @@ header{
 }
 
 
-.converter {
+.container {
     background-color: var(--bg-paper);
     padding: 1.50rem;
     border-radius: 1rem;
@@ -151,10 +155,20 @@ form{
 }
 
 .input-group {
-    margin-bottom: 1rem;
     display: flex;
-    align-items: center;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+@media screen and (min-width: 0px)  {
+    .input-group {
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 1rem;
+    }
 }
 
 .input-group:last-of-type{
@@ -200,6 +214,22 @@ button {
     font-weight: 600;
 }
 
+.swap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.25rem 0;
+}
+
+.swap button{
+    width: min-content;
+}
+
+.swap i,.swap svg{
+    transform: rotate(90deg);
+}
+
 button:hover {
     transform: scale(1.02);
     box-shadow: var(--box-shadow-hover);
@@ -228,7 +258,7 @@ footer{
     align-items: center;
     gap: 0.5rem;
     flex-direction: column;
-    box-shadow: var(--box-shadow-success);
+    box-shadow: var(--box-shadow);
 }
 
 footer.credit{
@@ -246,6 +276,35 @@ footer.credit{
     text-align: center;
 }
 
+#single-amount{
+    color: var(--text-disabled);
+}
+
 #input-amount{
+    color: var(--text-secondary);
     font-size: x-large;
+}
+
+footer.success{
+    box-shadow: var(--box-shadow-success);
+}
+
+footer.success #input-amount{
+    color: var(--success);
+}
+
+footer.warning{
+    box-shadow: var(--box-shadow-warning);
+}
+
+footer.warning #input-amount{
+    color: var(--warning);
+}
+
+footer.danger{
+    box-shadow: var(--box-shadow-danger);
+}
+
+footer.danger #input-amount{
+    color: var(--danger);
 }
