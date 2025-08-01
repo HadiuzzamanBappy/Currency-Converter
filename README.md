@@ -1,6 +1,12 @@
 # Dynamic Currency Converter
 
-![Currency Converter Screenshot](https://via.placeholder.com/600x300?text=Currency+Converter+Screenshot) A modern and responsive currency converter web application that fetches real-time exchange rates from a currency API. Users can easily convert amounts between various currencies.
+A modern and responsive currency converter web application that fetches real-time exchange rates from a currency API. Users can easily convert amounts between various currencies.
+
+🌐 **Live Demo & Screenshot**  
+➡️ View Live Site Here (https://currency-convert-bro.vercel.app/)  
+<br>
+![alt text](/res/img/image.png) 
+<br>
 
 ## Table of Contents
 
