@@ -1,12 +1,12 @@
 # Dynamic Currency Converter
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 A modern and responsive currency converter web application that fetches real-time exchange rates from a currency API. Users can easily convert amounts between various currencies.
 
-🌐 **Live Demo & Screenshot**  
-➡️ View Live Site Here (https://currency-convert-bro.vercel.app/)  
-<br>
-![alt text](/res/img/image.png)
-<br>
+▶️ **[View the Live Vercel](https://currency-convert-bro.vercel.app/)**  
+
+![Preview](/res/img/image.png)
 
 ## Table of Contents
 
@@ -54,7 +54,7 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 
 ### Installation
 
-1.  **Clone the repository (or download the ZIP):**
+1. **Clone the repository (or download the ZIP):**
 
     If you use Git:
 
@@ -65,24 +65,24 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
     If you prefer to download:
     Go to the GitHub repository page and click on "**Code**" -> "**Download ZIP**". Unzip the downloaded file.
 
-2.  **Navigate to the project directory:**
+2. **Navigate to the project directory:**
 
     ```bash
     cd currency-converter
     ```
 
-3.  **Open `index.html`:**
+3. **Open `index.html`:**
     Simply open the `index.html` file in your preferred web browser. You can do this by double-clicking the file or by right-clicking and selecting "**Open with...**" and choosing your browser.
 
 ---
 
 ## Usage
 
-1.  **Select Currencies:** Choose the "**From**" currency from the left dropdown and the "**To**" currency from the right dropdown.
-2.  **Enter Amount:** Type the amount you wish to convert into the input field on the left.
-3.  **View Result:** The converted amount will automatically display in the input field on the right.
-4.  **Swap Currencies:** Click the swap icon (usually a double-headed arrow) between the currency dropdowns to quickly switch the "**From**" and "**To**" currencies.
-5.  **Refresh Rates:** The application will typically fetch new rates when currencies are changed or the page is loaded.
+1. **Select Currencies:** Choose the "**From**" currency from the left dropdown and the "**To**" currency from the right dropdown.
+2. **Enter Amount:** Type the amount you wish to convert into the input field on the left.
+3. **View Result:** The converted amount will automatically display in the input field on the right.
+4. **Swap Currencies:** Click the swap icon (usually a double-headed arrow) between the currency dropdowns to quickly switch the "**From**" and "**To**" currencies.
+5. **Refresh Rates:** The application will typically fetch new rates when currencies are changed or the page is loaded.
 
 ---
 
@@ -90,8 +90,8 @@ You will need a modern web browser (like Chrome, Firefox, Edge, or Safari) to ru
 
 This project relies on a third-party currency exchange rate API.
 
-- **API : Exchange Rate:** https://www.exchangerate-api.com/
-- **Library : Country Select:** https://www.jqueryscript.net/form/country-picker-flags.html
+- **API : Exchange Rate:** <https://www.exchangerate-api.com/>
+- **Library : Country Select:** <https://www.jqueryscript.net/form/country-picker-flags.html>
 
 ---
 
@@ -115,11 +115,11 @@ Contributions are what make the open-source community such an amazing place to l
 
 If you have suggestions for improving this project, please fork the repository and create a pull request. You can also open an issue with the tag "enhancement".
 
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ---
 
